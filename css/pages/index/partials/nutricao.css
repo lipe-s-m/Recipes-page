@@ -1,0 +1,25 @@
+section #nutricao article{
+    
+    margin-top: 0.5rem;
+}
+
+article div{
+    font-size: var(--paragraph);
+    font-family: var(--outfit);
+    font-weight: 400;
+    color: var(--stone-600);
+    display: flex;
+    width: 50%;
+    margin-left: 2rem;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+article .bold{
+    color: var(--brown-800);
+    font-weight: 600;
+}
+article hr{
+    margin: 0.7rem 0;
+    color: var(--stone-150);
+    border-top: 2px solid;
+}
