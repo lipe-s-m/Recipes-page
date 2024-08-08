@@ -1,0 +1,71 @@
+@import url("./../../global/global.css");
+@import url("./../index/partials/apresentacao.css");
+
+body {
+  background-color: var(--stone-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5.5rem 0;
+}
+
+main {
+  background-color: var(--white);
+  width: clamp(400px, 70vw, 1200px);
+  padding: clamp(30px, 3%, 50px);
+  border-radius: 20px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+    gap: 1rem;
+}
+hr{
+    color: var(--stone-150);
+    size: 0.2px;
+    border-top: 2px solid;
+    margin: 2rem 0;
+}
+main .banner {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+main h1{
+    font-family: var(--young-serif);
+    font-weight: 400;
+}
+
+main p{
+    font-family: var(--outfit);
+    font-weight: 400;
+    color: var(--stone-600);
+    text-align: justify;
+    font-size: var(--paragraph);
+}
+
+main h3{
+    color: var(--rose-800);
+    font-family: var(--outfit);
+    font-weight: 600;
+    
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 0;
+  }
+  main {
+    padding: 0;
+    border-radius: 0;
+  }
+  main .banner {
+    border-radius: 0px;
+  }
+  .content {
+    padding: clamp(30px, 3%, 50px);
+  }
+}
