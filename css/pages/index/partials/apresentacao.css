@@ -1,7 +1,13 @@
 #tempo-preparo{
     background-color: var(--rose-50);
     padding: 1.5rem;
-    padding-bottom: 0;
     margin: 0.5rem 0;
+    margin-bottom: -0.5rem;
     border-radius: 15px;
+}
+@media (max-width: 430px) {
+    #tempo-preparo{
+        padding: 1rem;
+        margin: 0;
+    }    
 }
